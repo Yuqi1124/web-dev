@@ -53,6 +53,10 @@
     margin-left: 16px;
 }
 
+.wd-margin-right {
+    margin-right: 16px;
+}
+
 .wd-margin-left-smaller {
     margin-left: 12px;
 }
@@ -134,6 +138,10 @@
 
 .wd-float-left {
     float: left;
+}
+
+.wd-float-right {
+    float: right;
 }
 
 .wd-float-done {
