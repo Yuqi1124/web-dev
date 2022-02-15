@@ -1,0 +1,172 @@
+.wd-most-width {
+    width: 90%;
+}
+
+.wd-color-white {
+    color: white;
+}
+
+.wd-color-blue {
+    color: rgb(29,161,242);
+}
+
+.wd-color-gray {
+    color: rgb(110, 118, 125);
+}
+
+.wd-color-light-gray {
+    color: lightgray;
+}
+
+.wd-color-red {
+    color: red;
+}
+
+.wd-bg-color-darkgray {
+    background-color: darkgray;
+}
+
+
+.wd-bg-color-black {
+    background-color: black;
+}
+
+.wd-rounded-corners-all {
+    border-radius: 20px;
+}
+
+.wd-rounded-circle {
+    border-radius: 50%;
+}
+
+.wd-rounded-top {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.wd-rounded-bottom {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.wd-margin-left {
+    margin-left: 16px;
+}
+
+.wd-margin-left-smaller {
+    margin-left: 12px;
+}
+
+.wd-margin-top {
+    margin-top: 12px;
+}
+
+.wd-margin-bottom {
+    margin-bottom: 12px;
+}
+
+.wd-margin-top-right {
+    margin-right: 8%;
+}
+
+.wd-margin-icon {
+    margin-right: 8%;
+}
+
+.wd-slightly-high {
+    height: 40px;
+}
+
+.wd-min-height {
+    height: 100px;
+}
+
+.wd-position-slightly-left-down {
+    position: absolute;
+    top: 9px;
+    right: 12px;
+}
+
+.wd-position-right {
+    position: absolute;
+    right: 16px;
+}
+
+.wd-ft-size-mid {
+    font-size: 20px;
+}
+
+.wd-ft-size-larger {
+    font-size: 35px;
+}
+
+.wd-ft-link-size {
+    font-size: 15px;
+}
+
+.wd-ft-topic {
+    font-size: 13px;
+}
+
+.wd-padding-link {
+    padding: 16px;
+}
+
+.wd-padding-12 {
+    padding: 12px;
+}
+
+.wd-padding-top-less {
+    padding: 10px 15px 25px;
+}
+
+.wd-border-bottom {
+    border-bottom: 5px solid rgb(29,161,242);
+}
+
+.wd-border-up {
+    border-top: 15px solid rgb(110, 118, 125);
+}
+
+.wd-border-thin {
+    border: 1px solid rgb(47, 51, 54);
+}
+
+.wd-float-left {
+    float: left;
+}
+
+.wd-float-done {
+    clear: both;
+}
+
+.wd-width-row-for-six {
+    width: 6%;
+}
+
+.wd-width-max-506 {
+    max-width:506px;
+}
+
+.wd-width-max-504 {
+    max-width:504px;
+}
+
+.wd-fond-bold {
+    font-weight: bold;
+}
+
+.wd-size-square {
+    height: 100px;
+    width: 100px;
+}
+
+.wd-size-circle {
+    height: 100px;
+    width: 100px;
+}
+
+.wd-size-rec {
+    height: 264px;
+    width: 504px;
+}
