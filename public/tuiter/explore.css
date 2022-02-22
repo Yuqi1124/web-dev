@@ -1,0 +1,26 @@
+.wd-icon-input {
+    position: relative;
+    top: 10px;
+    left: 30px;
+}
+
+.wd-slightly-down {
+    top: 30px;
+}
+
+.wd-z-to-front {
+    z-index: 10;
+}
+
+.wd-slightly-large {
+    font-size: 1.5em;
+}
+
+.wd-avatar-size {
+    height: 48px;
+    width: 48px;
+}
+
+.wd-signtly-down {
+    top: 10px;
+}
