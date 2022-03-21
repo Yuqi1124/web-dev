@@ -35,7 +35,7 @@ const ExploreComponent = ({active = 'for you'}) => {
            <ul className="list-group">
                 <li className="list-group-item p-0">
                     <div className="card">
-                        <img src="Starship-Mk1-Day.jpeg" className="card-img img-fluid"/>
+                        <img src="Starship-Mk1-Day.jpeg" className="card-img img-fluid" alt="Starship-Mk1-Day"/>
                         <div className="card-img-overlay text-white fa-2x fw-bold d-flex align-items-end">SpaceX's Starship</div>
                     </div>
                 </li>
