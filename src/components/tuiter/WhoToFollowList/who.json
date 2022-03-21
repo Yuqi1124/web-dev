@@ -1,15 +1,15 @@
 [
-    {   "avatarIcon": "JavaCupLogo800x800.jpeg",
+    {   "avatarIcon": "./tuiter/JavaCupLogo800x800.jpeg",
         "userName": "Java", "handle": "Java"},
-    {   "avatarIcon": "relativityspace.jpeg",
+    {   "avatarIcon": "./tuiter/relativityspace.jpeg",
         "userName": "Relativity Space",
         "handle": "relativityspace"},
-    {   "avatarIcon": "virgin-1.svg",
+    {   "avatarIcon": "./tuiter/virgin-1.svg",
         "userName": "Virgin Galactic",
         "handle": "virgingalactic"},
-    {   "avatarIcon": "nasa.png",
+    {   "avatarIcon": "./tuiter/nasa.png",
         "userName": "NASA", "handle": "NASA"},
-    {   "avatarIcon": "Tesla_T_symbol.svg.png",
+    {   "avatarIcon": "./tuiter/Tesla_T_symbol.svg.png",
         "userName": "Tesla", "handle": "Tesla"}
 ]
 
