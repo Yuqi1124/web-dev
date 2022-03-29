@@ -9,6 +9,7 @@ import Tuiter from "./components/tuiter/index";
 import HomeScreen from "./components/tuiter/home-screen";
 import {BrowserRouter, Route, Routes}
     from "react-router-dom";
+import Navi from "./navi";
 
 function App() {
     return (
@@ -16,6 +17,8 @@ function App() {
             <div className="container">
                 <Routes>
                     <Route path="/">
+                        <Route path=""
+                               element={<Navi/>}/>
                         <Route path="labs"
                                element={<Labs/>}/>
                         <Route path="hello"
