@@ -42,6 +42,7 @@ const TuitListItem = (
                         <span className="fw-bold text-white">
                         {tuit["postedBy"]["username"]}
                         </span>
+                        <span className="ms-2 me-2"><i className="fa-solid fa-circle-check"></i></span>
                         <span className="text-secondary">
                         @{tuit["postedBy"]["username"]}
                         </span>

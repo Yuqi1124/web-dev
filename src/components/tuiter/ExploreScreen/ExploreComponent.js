@@ -1,5 +1,6 @@
 import React from "react";
 import PostSummaryList from "../PostSummaryList/index";
+import Navi from "./explore-nav";
 
 const ExploreComponent = ({active = 'for you'}) => {
     return(<>
@@ -35,12 +36,13 @@ const ExploreComponent = ({active = 'for you'}) => {
            <ul className="list-group">
                 <li className="list-group-item p-0">
                     <div className="card">
-                        <img src="./tuiter/Starship-Mk1-Day.jpeg" className="card-img img-fluid" alt="Starship-Mk1-Day"/>
+                        <img src="Starship-Mk1-Day.jpeg" className="card-img img-fluid" alt="Starship-Mk1-Day"/>
                         <div className="card-img-overlay text-white fa-2x fw-bold d-flex align-items-end">SpaceX's Starship</div>
                     </div>
                 </li>
            </ul>
            {PostSummaryList()}
+        <Navi/>
     </>);
 }
 export default ExploreComponent;

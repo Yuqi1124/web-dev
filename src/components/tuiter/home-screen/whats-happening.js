@@ -18,12 +18,12 @@ const WhatsHappening = () => {
             <div className="col-10">
                 <textarea value={whatsHappening}
                           placeholder="What's happening?"
-                          className="form-control bg-black"
+                          className="form-control bg-black text-white"
                           onChange={(event) =>
                                     setWhatsHappening(event.target.value)}>
                 </textarea>
                 <div className="mb-3">
-                    <span className="me-3 text-primary"><i className="fa-solid fa-image"></i></span>
+                    <span className="ms-3 me-3 text-primary"><i className="fa-solid fa-image"></i></span>
                     <span className="me-3 text-primary"><i className="fa-solid fa-chart-line"></i></span>
                     <span className="me-3 text-primary"> <i className="fa-solid fa-face-smile"></i></span>
                     <span className="me-3 text-primary"><i className="fa-solid fa-calendar"></i></span>

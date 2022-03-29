@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 const Navi = () => {
     return(
         <>
-            <h1>This is to assist navigation</h1>
+            <h2>This is to assist navigation</h2>
             <Link to="/tuiter/explore">
                 Explore
             </Link> |
