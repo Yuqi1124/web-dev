@@ -13,7 +13,7 @@ const WhatsHappening = () => {
     return (
         <div className="row">
             <div className="col-2">
-                <img src="IMG_4240.jpg" className="img-fluid rounded-circle" alt="tuit image"/>
+                <img src="./tuiter/IMG_4240.jpg" className="img-fluid rounded-circle" alt="tuit image"/>
             </div>
             <div className="col-10">
                 <textarea value={whatsHappening}
