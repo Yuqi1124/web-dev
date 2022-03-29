@@ -22,7 +22,7 @@ const WhatsHappening = () => {
                           onChange={(event) =>
                                     setWhatsHappening(event.target.value)}>
                 </textarea>
-                <div className="mb-3">
+                <div className="mt-2 mb-3">
                     <span className="ms-3 me-3 text-primary"><i className="fa-solid fa-image"></i></span>
                     <span className="me-3 text-primary"><i className="fa-solid fa-chart-line"></i></span>
                     <span className="me-3 text-primary"> <i className="fa-solid fa-face-smile"></i></span>
