@@ -7,6 +7,8 @@ import HelloWorld from "./components/hello-world";
 import Labs from "./components/labs/index";
 import Tuiter from "./components/tuiter/index";
 import HomeScreen from "./components/tuiter/home-screen";
+import ExploreComponent from "./components/tuiter/ExploreScreen/ExploreComponent";
+import NotificationScreen from "./components/tuiter/Notification"
 import {BrowserRouter, Route, Routes}
     from "react-router-dom";
 import Navi from "./navi";
@@ -27,6 +29,10 @@ function App() {
                                element={<Tuiter/>}>
                             <Route index
                                    element={<HomeScreen/>}/>
+                            <Route path="explore"
+                                   element={<ExploreComponent/>}/>
+                            <Route path="notifications"
+                                   element={<NotificationScreen/>}/>
                         </Route>
                     </Route>
                 </Routes>

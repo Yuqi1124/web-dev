@@ -7,7 +7,7 @@ const NavigationSidebar = ({active = 'explore'}) => {
                 <a href="#" className="list-group-item list-group-item-action">
                     <i className="fa-brands fa-twitter"></i>
                 </a>
-                <a href="#" className={`list-group-item list-group-item-action ${active === 'home' ? 'active' : ''}`}>
+                <a href="/tuiter" className={`list-group-item list-group-item-action ${active === 'home' ? 'active' : ''}`}>
                     <div className="row">
                         <div className="col-2">
                             <i className="fa-solid fa-house-chimney"></i>
@@ -17,7 +17,7 @@ const NavigationSidebar = ({active = 'explore'}) => {
                         </div>
                     </div>
                 </a>
-                <a href="#" className={`list-group-item list-group-item-action ${active === 'explore' ? 'active' : ''}`}>
+                <a href="explore" className={`list-group-item list-group-item-action ${active === 'explore' ? 'active' : ''}`}>
                     <div className="row">
                         <div className="col-2">
                             <i className="fa-solid fa-hashtag"></i>
@@ -27,7 +27,7 @@ const NavigationSidebar = ({active = 'explore'}) => {
                         </div>
                     </div>
                 </a>
-                <a href="#" className={`list-group-item list-group-item-action ${active === 'notification' ? 'active' : ''}`}>
+                <a href="notifications" className={`list-group-item list-group-item-action ${active === 'notification' ? 'active' : ''}`}>
                     <div class="row">
                         <div className="col-2">
                             <i className="fa-solid fa-bell"></i>
