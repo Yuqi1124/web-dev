@@ -1,4 +1,4 @@
-const WhoToFollowListItem = (who) => {
+const OldWhoToFollowListItem = (who) => {
     return (`
                 <li class="list-group-item">
                     <div class="row">
@@ -17,4 +17,4 @@ const WhoToFollowListItem = (who) => {
                 </li>`)
 }
 
-export default WhoToFollowListItem;
+export default OldWhoToFollowListItem;

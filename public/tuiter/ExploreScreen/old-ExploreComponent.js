@@ -1,6 +1,6 @@
-import PostSummaryList from "../PostSummaryList/index.js";
+import PostSummaryList from "../PostSummaryList/old-index.js";
 
-const ExploreComponent = () => {
+const OldExploreComponent = () => {
     return(`
             <div class="row">
                 <div class="col-11">
@@ -41,4 +41,4 @@ const ExploreComponent = () => {
            ${PostSummaryList()}
     `);
 }
-export default ExploreComponent;
+export default OldExploreComponent;

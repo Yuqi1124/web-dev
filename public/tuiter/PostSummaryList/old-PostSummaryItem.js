@@ -1,5 +1,5 @@
 
-const PostSummaryItem = (post) => {
+const OldPostSummaryItem = (post) => {
     return(`
     <li class="list-group-item">
                     <div class="row">
@@ -24,4 +24,4 @@ const PostSummaryItem = (post) => {
     `);
 }
 
-export default PostSummaryItem
+export default OldPostSummaryItem

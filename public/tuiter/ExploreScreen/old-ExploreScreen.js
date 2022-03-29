@@ -1,6 +1,6 @@
-import NavigationSidebar from "../NavigationSidebar/index.js";
-import ExploreComponent from "./ExploreComponent.js";
-import WhoToFollowList from "../WhoToFollowList/index.js";
+import NavigationSidebar from "../NavigationSidebar/old-index.js";
+import OldExploreComponent from "./old-ExploreComponent.js";
+import WhoToFollowList from "../WhoToFollowList/old-index.js";
 
 (function ($) {
     $('#wd-explore').append(`
@@ -9,7 +9,7 @@ import WhoToFollowList from "../WhoToFollowList/index.js";
             ${NavigationSidebar()}
         </div>
         <div class="col-10 col-sm-10 col-md-10 col-lg-7 col-xl-6">
-            ${ExploreComponent()}
+            ${OldExploreComponent()}
         </div>
         <div class="d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4">
             ${WhoToFollowList()}

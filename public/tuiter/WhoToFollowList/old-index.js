@@ -1,5 +1,5 @@
-import WhoToFollowListItem from "./WhoToFollowListItem.js";
-import who from "./who.js"
+import OldWhoToFollowListItem from "./old-WhoToFollowListItem.js";
+import who from "./old-who.js"
 
 const WhoToFollowList = () => {
     return (`
@@ -7,7 +7,7 @@ const WhoToFollowList = () => {
             <li class="list-group-item fw-bold"> Who to follow </li>
                 ${who.map(p => {
                     return (
-                        WhoToFollowListItem(p))
+                        OldWhoToFollowListItem(p))
                 }).join("")}
             </ul>
 `); }
