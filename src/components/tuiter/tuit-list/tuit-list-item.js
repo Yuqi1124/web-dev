@@ -1,5 +1,6 @@
 import {useDispatch} from "react-redux";
 import TuitStats from "./tuit-stats";
+import {deleteTuit} from "../actions/tuits-actions";
 
 const TuitListItem = (
     {key,
@@ -13,24 +14,7 @@ const TuitListItem = (
     }
 ) => {
     const dispatch = useDispatch();
-    const deleteTuit = (tuit) => {
-        dispatch({type: 'delete-tuit', tuit})
-    };
 
-    let attachments;
-    if(tuit.hasOwnProperty("attachments")) {
-        if (Object.keys(tuit["attachments"])[0] === "video") {
-            attachments = <div className="ratio ratio-16x9">
-                <iframe src={`https://www.youtube.com/embed/${tuit["attachments"]["video"]}`} title="YouTube video" allowFullScreen/>
-            </div>
-        }
-        else {
-            attachments = <img src={tuit["attachments"]["image"]} className="img-fluid" alt="tuit attached image"/>
-        }
-    }
-    else {
-        attachments = <p/>
-    }
     return(<>
         <li className="list-group-item">
             <div className="row">
@@ -47,18 +31,12 @@ const TuitListItem = (
                         @{tuit["postedBy"]["username"]}
                         </span>
                         <span className="text-end">
-                            <i onClick={() =>
-                                deleteTuit(tuit)}
-                               className="fas fa-remove fa-2x
-                  fa-pull-right"/>
+                            <i className="fas fa-remove float-end" onClick={() => deleteTuit(dispatch, tuit)}/>
                         </span>
 
                     </div>
                     <div className="text-white">
                         {tuit["tuit"]}
-                    </div>
-                    <div>
-                        {attachments}
                     </div>
                     <TuitStats tuit={tuit}/>
                 </div>

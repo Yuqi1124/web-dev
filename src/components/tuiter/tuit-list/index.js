@@ -1,11 +1,21 @@
-import React from "react";
-import {useSelector} from "react-redux";
+import React, {useEffect} from "react";
+import {useDispatch, useSelector}
+    from "react-redux";
+import * as service
+    from '../../../services/tuits-service';
 import TuitListItem
     from "./tuit-list-item";
+import {findAllTuits}
+    from "../actions/tuits-actions";
 
 const TuitList = () => {
     const tuits = useSelector(
         state => state.tuits);
+    const dispatch = useDispatch();
+    useEffect(() =>
+            findAllTuits(dispatch),
+        []);
+
     return (
         <ul className="list-group">
             {
